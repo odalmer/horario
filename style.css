@@ -22,6 +22,11 @@ body {
     padding: 0.5rem;
 }
 
+a p, h3 {
+    color: white;
+    font-weight: bold;
+}
+
 header {
     display: grid;
     grid-template-columns: 2rem auto;
