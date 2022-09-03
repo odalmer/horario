@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     background-color: #151618;
     color: white;
@@ -15,11 +20,24 @@ body {
     display: none;
 }
 
+.menu ul {
+    list-style: none;
+    margin: 1rem;
+}
+
+.menu li {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #222325d6;
+}
+
 .horario {
     display: grid;
     gap: 1.5rem;
     margin: 1rem auto;
     padding: 0.5rem;
+    /* min-width: 100%; */
+    /* border: solid red 10px; */
 }
 
 a p, h3 {
@@ -48,7 +66,7 @@ header {
 
 }
 
-.bars-icon-cont:hover {
+.bars-icon:hover {
     background-color: rgb(83, 83, 83);
 }
 
@@ -77,11 +95,12 @@ header {
 
     .container {
         display: grid;
-        grid-template-columns: 20rem 65%;
-
+        grid-template-columns: 20rem 67.5%;
     }
-
     .menu {
         display: block;
+    }
+    .day{
+        min-height: 10rem;
     }
 }
