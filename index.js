@@ -6,7 +6,7 @@ const horario = document.getElementById("horario");
 let menuStatus;
 
 menuBtn.addEventListener("click", () => {
-  if (menu.style.display == "block") {
+  if (menu.style.display != "none") {
     menuStatus = "none";
     container.style.gridTemplateColumns = "auto";
   } else {
