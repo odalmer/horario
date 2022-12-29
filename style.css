@@ -72,8 +72,13 @@ header {
 
 .materia {
     margin: 3% 0 0%;
+    line-height: 25px;
 }
 
+.materia-title {
+    font-size: 1.2em;
+    line-height: 2em;
+}
 .day {
     background-color: #22232563;
     padding: 1rem;
@@ -97,10 +102,12 @@ header {
         display: grid;
         grid-template-columns: 20rem 67.5%;
     }
+
     .menu {
         display: block;
     }
-    .day{
+
+    .day {
         min-height: 10rem;
     }
 }
